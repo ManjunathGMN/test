@@ -1,0 +1,17 @@
+server:
+  servlet:
+    context-path: /api
+
+orders:
+  queue:
+    name: manju-idsIMSQueue-dev
+
+cloud:
+  aws:
+    region: us-west-2
+
+logging:
+  level:
+    com.arthurtira.sbs: DEBUG
+    org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
+
